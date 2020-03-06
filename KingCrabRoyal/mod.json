@@ -1,0 +1,16 @@
+{
+    "Name": "KingCrabRoyal",
+    "Enabled": true,
+	
+    "Version": "0.2",
+
+    "Author": "Gabi Davar",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+	{ "Type": "MechDef", "Path": "mech", "AddToDB": true }
+    ]
+}
