@@ -8,3 +8,10 @@
 
 * SLDF Royal variant
 * Double heatsinks
+
+# TBT-3C
+
+* SLDF variant
+* XL engine (6,9)
+* Double heatsinks
+* endo steel
