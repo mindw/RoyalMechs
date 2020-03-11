@@ -1,25 +1,28 @@
 {
     "Description": {
-        "Cost": 6800000,
+        "Cost": 5800000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Archer",
-        "Id": "chassisdef_archer_ARC-2Rb",
-        "Name": "Archer",
-        "Details": "The \"Royal\" SDLF Archer very much resembles the most common variant seen today—carrying an endo steel frame, Artemis IV FCS-equipped missile launchers and double heatsinks.",
-        "Icon": "uixTxrIcon_archer"
+        "UIName": "Catapult",
+        "Id": "chassisdef_catapult_CPLT-C1b",
+        "Name": "Catapult",
+        "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
+        "Icon": "uixTxrIcon_catapult"
     },
-    "MovementCapDefID": "movedef_archer_ARC-2R",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_archer",
-    "PrefabIdentifier": "chrPrfMech_archerBase-001",
-    "PrefabBase": "archer",
-    "Tonnage": 70,
-    "InitialTonnage": 25.5,
+    "MovementCapDefID": "movedef_catapult_CPLT-C1",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_catapult",
+    "PrefabIdentifier": "chrPrfMech_catapultBase-001",
+    "PrefabBase": "catapult",
+    "Tonnage": 65,
+    "InitialTonnage": 25,
     "weightClass": "HEAVY",
+    "BattleValue": 7144000,
     "Heatsinks": 30,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -36,13 +39,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 100,
-    "MeleeInstability": 70,
+    "MeleeDamage": 60,
+    "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 80,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -57,25 +60,25 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -95,19 +98,23 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }                
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -121,19 +128,15 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
@@ -157,66 +160,52 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": -1
+            "y": 12,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 14,
-            "z": -0.5
+            "y": 12,
+            "z": 0
         },
         {
             "x": -4,
-            "y": 14,
-            "z": -0.5
+            "y": 12,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": -1
+            "y": 12,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 14,
-            "z": -0.5
+            "y": 12,
+            "z": 0
         },
         {
             "x": -4,
-            "y": 14,
-            "z": -0.5
+            "y": 12,
+            "z": 0
         },
         {
-            "x": 2.5,
+            "x": 3,
             "y": 5,
-            "z": 1
+            "z": 0
         },
         {
-            "x": -2.5,
+            "x": -3,
             "y": 5,
-            "z": 1
+            "z": 0
         }
     ],
-    "VariantName": "ARC-2Rb",
+    "VariantName": "CPLT-C1b",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "YangsThoughts": "With both heat and ammmo issues solved the Royal SLDF Archer is the king of \"missile boats\". It is capable hurling deadly swarms of LRMs at targets while dishing out pain to anyone getting closer-range.",
-    "StockRole": "Missile Boat",
-    "FixedEquipment" : [
-        {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_General_Enhanced_Missilery_System",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        }
-    ]
+    "StockRole": "Heavy Fire Support",
+    "YangsThoughts": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles."
 }
