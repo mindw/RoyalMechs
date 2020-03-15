@@ -1,13 +1,10 @@
 {
-    "Name": "KingCrabRoyal",
+    "Name": "RoyalMechs",
     "Author": "Gabi Davar",
     "Enabled": true,
     
-    "Version": "0.5",
+    "Version": "0.6",
     "BattleTechVersionMin": "1.9.1",
-
-    "DependsOn": [],
-    "ConflictsWith": [],
 
     "Manifest": [
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },

@@ -16,9 +16,9 @@
     "ChassisID": "chassisdef_trebuchet_TBT-3C",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5640000,
+        "Cost": 12400000,
         "Rarity": 5,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Trebuchet TBT-3C",
@@ -27,7 +27,7 @@
         "Details": "The original Trebuchet as produced for the Star League, the -3C is similar to a normal Trebuchet-5N except with more lasers and better heat dissipation as well as making use of the Artemis IV system.",
         "Icon": "uixTxrIcon_trebuchet"
     },
-    "simGameMechPartCost": 560000,
+    "simGameMechPartCost": 1240000,
     "Version": 1,
     "Locations": [
         {
@@ -42,19 +42,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 60,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 100,
+            "CurrentArmor": 70,
             "CurrentRearArmor": 25,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 100,
+            "AssignedArmor": 70,
             "AssignedRearArmor": 25
         },
         {
@@ -69,19 +69,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 100,
+            "CurrentArmor": 70,
             "CurrentRearArmor": 25,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 100,
+            "AssignedArmor": 70,
             "AssignedRearArmor": 25
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 60,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
@@ -131,7 +131,7 @@
 			"ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -171,6 +171,17 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }, 
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
@@ -186,17 +197,6 @@
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
