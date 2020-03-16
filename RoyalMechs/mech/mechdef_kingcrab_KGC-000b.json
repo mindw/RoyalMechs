@@ -8,7 +8,6 @@
             "unit_role_brawler",
             "unit_release",
             "unit_range_short",
-            "unit_indirectFire",
             "unit_speed_low",
             "unit_armor_high",
             "BLACKLISTED"
@@ -18,7 +17,7 @@
     "ChassisID": "chassisdef_kingcrab_KGC-000b",
     "HeraldryID": null,
     "Description": {
-        "Cost": 13900000,
+        "Cost": 22150000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -29,7 +28,7 @@
         "Details": "The King Crab-000b, the Star League's Royal variant, is every bit as powerful as its downgraded cousin, the -0000. Still armed with twin AC/20s, the -000b's double heat sinks and doubled ammo keeps the massive cannons firing far longer and more frequently making the -000b a true terror on the battlefield.",
         "Icon": "uixTxrIcon_kingcrab"
     },
-    "simGameMechPartCost": 1300000,
+    "simGameMechPartCost": 2215000,
     "Version": 1,
     "Locations": [
         {
@@ -44,64 +43,64 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 165,
+            "CurrentArmor": 170,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 165,
+            "AssignedArmor": 170,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 145,
-            "CurrentRearArmor": 50,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 145,
-            "AssignedRearArmor": 50
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "CenterTorso",
-            "CurrentArmor": 195,
+            "CurrentArmor": 190,
             "CurrentRearArmor": 60,
-            "CurrentInternalStructure": 155,
-            "AssignedArmor": 195,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 190,
             "AssignedRearArmor": 60
         },
         {
             "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 280,
+            "CurrentRearArmor": 75,
+            "CurrentInternalStructure": 155,
+            "AssignedArmor": 280,
+            "AssignedRearArmor": 75
+        },
+        {
+            "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 145,
-            "CurrentRearArmor": 50,
+            "CurrentArmor": 190,
+            "CurrentRearArmor": 60,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 145,
-            "AssignedRearArmor": 50
+            "AssignedArmor": 190,
+            "AssignedRearArmor": 60
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 165,
+            "CurrentArmor": 170,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 85,
-            "AssignedArmor": 165,
+            "AssignedArmor": 170,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 170,
+            "CurrentArmor": 180,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 170,
+            "AssignedArmor": 180,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 170,
+            "CurrentArmor": 180,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 170,
+            "AssignedArmor": 180,
             "AssignedRearArmor": -1
         }
     ],
@@ -130,15 +129,15 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800",
             "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
+        }, 
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
@@ -152,7 +151,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
