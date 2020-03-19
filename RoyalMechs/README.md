@@ -7,16 +7,16 @@ Instead, use [FellOfACargoShip] or [BattleTech Save Editor] mods to add them
 your mech bay.
 
 # KTO-20
-* FF armor (-1)
-* Double heatsinks
 * 3039 variant
+* FF armor (-1 initial tonnage, +1 armor)
+* Double heatsinks
 
 # KGC-000b
 * SLDF Royal
 * Double heatsinks (2 built into the engine)
 * FF armor (-2 initial tonnage +2 armor)
 * CASE (-1 initial tonnage, +1 armor)
-* ArtemisIV (replace with Missle TTS)
+* ArtemisIV (replace with Missile TTS)
 
 # TBT-3C
 * SLDF Royal
@@ -25,14 +25,14 @@ your mech bay.
 * endo steel
 * -0.5 armor (dropped by original design)
 * CASE (-1 initial tonnage, +1 armor)
-* ArtemisIV (replace with Missle TTS+)
+* ArtemisIV (replace with Missile TTS+)
 
 # ARC-2Rb Archer
 * SLDF Royal
 * Double heatsinks
 * endo steel
 * CASE (-1 initial tonnage, +1 armor)
-* ArtemisIV (replace with Missle TTS+)
+* ArtemisIV (replace with Missile TTS+)
 
 # CPLT-C1b Catapult
 * SLDF Royal
@@ -45,14 +45,23 @@ your mech bay.
 * Double heatsinks
 * Guardian ECM
 * CASE (-0.5 initial tonnage, +0.5 armor)
-* ArtemisIV (replace with Missle TTS+)
+* ArtemisIV (replace with Missile TTS+)
 
 # TDR-5Sb Thunderbolt
 * SLDF Royal
 * endo steel
 * Double heatsinks
-* ArtemisIV (replace with Missle TTS+)
+* ArtemisIV (replace with Missile TTS+)
 * CASE (contrinute 0.5t for TTS)
+
+# SHD-2Hb Shadow Hawk
+* SLDF Royal
+* endo steel
+* Double heatsinks (1 engine builtin)
+* streak SRM replaced with missile TTS (1t)
+* CASE (+0.5 armor on L/R torso)
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 24.5 = 3{ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]
 
 # TODO
 * include in Black Market.
