@@ -64,6 +64,11 @@ your mech bay.
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 24.5 = 3{ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]
 
+# ANH-1X Annihilator
+* SLDF
+* Double heatsinks
+* CASE (+1 armor)
+
 # TODO
 * include in Black Market.
 * LCT-1Vb Locust

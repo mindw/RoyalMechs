@@ -6,10 +6,14 @@
     "Version": "0.6",
     "BattleTechVersionMin": "1.9.1",
 
+    "DependsOn": [],
+    "ConflictsWith": [],
+
     "Manifest": [
         { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false },
-        { "Type": "MovementCapabilitiesDef", "Path": "movement" }
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+		{ "Type": "HardpointDataDef", "Path": "hardpoints" }
     ]
 }
