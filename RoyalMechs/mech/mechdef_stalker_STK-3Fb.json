@@ -9,14 +9,14 @@
 			"unit_range_medium",
 			"unit_indirectFire",
 			"unit_speed_low",
-			"BLACKLIST"
+			"BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_stalker_STK-3Fb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10440000,
+        "Cost": 25770000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -27,7 +27,7 @@
         "Details": "One of the most venerable and numerous assault 'Mechs in the SLDF arsenal, the 3Fb was a long overdue \"Royal\" upgrade. Double heat sinks and a trimmed down weapons load freed enough tonnage for superior long-range hitting power, more protection and a very much improved heat profile.",
         "Icon": "uixTxrIcon_stalker"
     },
-    "simGameMechPartCost": 1040000,
+    "simGameMechPartCost": 2577000,
     "Version": 1,
     "Locations": [
         {

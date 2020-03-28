@@ -44,7 +44,7 @@ your mech bay.
 * SLDF Royal
 * Double heatsinks
 * Guardian ECM
-* CASE (-0.5 initial tonnage, +0.5 armor)
+* CASE (+1 armor on L/R torso)
 * ArtemisIV (replace with Missile TTS+)
 
 # TDR-5Sb Thunderbolt
