@@ -31,8 +31,9 @@ your mech bay.
 * SLDF Royal
 * Double heatsinks
 * endo steel
-* CASE (-1 initial tonnage, +1 armor)
+* CASE (+1 armor on L/R torso)
 * ArtemisIV (replace with Missile TTS+)
+* InitialTonnage 25.5 = 3.5{ENIS] + 16[E] + 3[C] + 3[G]
 
 # CPLT-C1b Catapult
 * SLDF Royal
@@ -53,7 +54,7 @@ your mech bay.
 * endo steel
 * Double heatsinks
 * ArtemisIV (replace with Missile TTS+)
-* CASE (contrinute 0.5t for TTS)
+* CASE (contribute 0.5t for TTS)
 
 # SHD-2Hb Shadow Hawk
 * SLDF Royal
