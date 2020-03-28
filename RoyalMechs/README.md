@@ -38,7 +38,8 @@ your mech bay.
 * SLDF Royal
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
-* CASE (-1 initial tonnage, +1 armor)
+* CASE (+1 armor on L/R torso)
+* InitialTonnage 25 = 6.5{IS] + 13.5[E] + 3[C] + 3[G] -1[FF]
 
 # STK-3Fb Stalker 
 * SLDF Royal
