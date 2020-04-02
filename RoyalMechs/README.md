@@ -60,7 +60,6 @@ your mech bay.
 * SLDF Royal
 * endo steel
 * Double heatsinks (1 engine builtin)
-* streak SRM replaced with missile TTS (1t)
 * CASE (+0.5 armor on L/R torso)
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 24.5 = 3{ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]

@@ -3,7 +3,7 @@
     "Author": "Gabi Davar",
     "Enabled": true,
     
-    "Version": "0.6",
+    "Version": "0.7",
     "BattleTechVersionMin": "1.9.1",
 
     "DependsOn": [],
@@ -14,6 +14,12 @@
         { "Type": "MechDef", "Path": "mech", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-		{ "Type": "HardpointDataDef", "Path": "hardpoints" }
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefsAppend", "ShouldAppendText": true },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" },
+        {
+            "Type": "AdvancedJSONMerge",
+            "Path": "StarSystemDefs"
+        }        
     ]
 }
