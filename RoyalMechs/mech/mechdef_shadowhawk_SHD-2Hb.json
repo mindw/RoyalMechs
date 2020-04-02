@@ -25,7 +25,7 @@
         "UIName": "Shadow Hawk SHD-2Hb",
         "Id": "mechdef_shadowhawk_SHD-2Hb",
         "Name": "Shadow Hawk",
-        "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two SRM2s and two Medium Pulse Lasers, cooled by double-strength heatsinks.",
+        "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two Streak SRM2s and two Medium Lasers, cooled by double-strength heatsinks.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "simGameMechPartCost": 1022000,
@@ -107,7 +107,7 @@
     "inventory": [
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -161,19 +161,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },  
-        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -184,7 +173,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

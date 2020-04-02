@@ -6,7 +6,7 @@
     "Version": "0.7",
     "BattleTechVersionMin": "1.9.1",
 
-    "DependsOn": [],
+    "DependsOn": ["StreakMissileLaunchers"],
     "ConflictsWith": [],
 
     "Manifest": [
