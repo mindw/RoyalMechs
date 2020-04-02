@@ -10,10 +10,7 @@
       "unit_speed_low",
       "unit_armor_high",
       "unit_indirectFire",
-      "unit_common",
-      "BLACKLISTED",
-      "unit_madlabs",
-      "unit_components_plusplusplus"
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   },
@@ -21,7 +18,7 @@
   "HeraldryID": null,
   "Description": {
     "Cost": 17260000,
-    "Rarity": 4,
+    "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": null,
     "Model": null,
@@ -32,11 +29,6 @@
     "Icon": "uixTxrIcon_archer"
   },
   "simGameMechPartCost": 1726000,
-  "RequiredToSpawnCompanyTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MinAppearanceDate": null,
   "Version": 1,
   "Locations": [
     {
