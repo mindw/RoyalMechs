@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_shadowhawk_SHD-2Hb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10220000,
+        "Cost": 10020000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -28,7 +28,7 @@
         "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two Streak SRM2s and two Medium Lasers, cooled by double-strength heatsinks.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
-    "simGameMechPartCost": 1022000,
+    "simGameMechPartCost": 1002000,
     "Version": 1,
     "Locations": [
         {

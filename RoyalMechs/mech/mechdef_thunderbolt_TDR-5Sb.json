@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_thunderbolt_TDR-5Sb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12160000,
+        "Cost": 11920000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -25,10 +25,10 @@
         "UIName": "Thunderbolt TDR-5Sb",
         "Id": "mechdef_thunderbolt_TDR-5Sb",
         "Name": "Thunderbolt",
-        "Details": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
+        "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. The large laser is replaced by an ER PPC, and a pair of Small Pulse Lasers replaces the machine guns. Double heat sinks keep the MechWarrior comfortable.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
-    "simGameMechPartCost": 1216000,
+    "simGameMechPartCost": 1192000,
     "Version": 1,
     "Locations": [
         {
@@ -52,10 +52,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 140,
             "CurrentRearArmor": 30,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 120,
+            "AssignedArmor": 140,
             "AssignedRearArmor": 30
         },
         {
@@ -70,10 +70,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 140,
             "CurrentRearArmor": 30,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 120,
+            "AssignedArmor": 140,
             "AssignedRearArmor": 30
         },
         {
@@ -105,17 +105,6 @@
         }
     ],
     "inventory": [
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
@@ -166,6 +155,17 @@
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -228,7 +228,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -239,7 +239,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -250,7 +250,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

@@ -2,7 +2,7 @@
 Additional Royal variants following patterned after the variants
 introduced in 1.9.1. Should work with both ModTek and vanilla mod loader.
 
-These are _not_ available in shops - as the prices are not updated.
+Available in the black market and advanced Star League systems.
 Instead, use [FellOfACargoShip] or [BattleTech Save Editor] mods to add them 
 your mech bay.
 
@@ -54,12 +54,13 @@ your mech bay.
 * endo steel
 * Double heatsinks
 * ArtemisIV (replace with Missile TTS+)
-* CASE (contribute 0.5t for TTS)
+* CASE (+0.5 armor on L/R torso)
+* Small laser moved from Head to Left torso - lack of graphical assets.
 
 # SHD-2Hb Shadow Hawk
 * SLDF Royal
 * endo steel
-* Double heatsinks (1 engine builtin)
+* Double heatsinks (1 engine built-in)
 * CASE (+0.5 armor on L/R torso)
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 24.5 = 3{ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]
@@ -70,7 +71,6 @@ your mech bay.
 * CASE (+1 armor)
 
 # TODO
-* include in Black Market.
 * LCT-1Vb Locust
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
