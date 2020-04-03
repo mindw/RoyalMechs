@@ -3,8 +3,8 @@ Additional Royal variants following patterned after the variants
 introduced in 1.9.1. Should work with both ModTek and vanilla mod loader.
 
 Available in the black market and advanced Star League systems.
-Instead, use [FellOfACargoShip] or [BattleTech Save Editor] mods to add them 
-your mech bay.
+Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
+them your mech bay.
 
 # KTO-20
 * 3039 variant
