@@ -292,5 +292,6 @@
             "prefabName": null,
             "hasPrefabName": false
         }
-    ]
+    ],
+    "MinAppearanceDate" : "2753-01-01T00:00:00Z"
 }

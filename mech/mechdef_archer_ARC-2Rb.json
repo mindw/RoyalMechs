@@ -227,5 +227,6 @@
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
-    }
+    },
+    "MinAppearanceDate" : "2752-01-01T00:00:00Z"
 }
