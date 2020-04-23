@@ -53,7 +53,7 @@ them your mech bay.
 * SLDF Royal
 * endo steel
 * Double heatsinks
-* ArtemisIV (replace with Missile TTS+)
+* ArtemisIV (replace with Missile TTS)
 * CASE (+0.5 armor on L/R torso)
 * Small laser moved from Head to Left torso - lack of graphical assets.
 
@@ -70,8 +70,25 @@ them your mech bay.
 * Double heatsinks
 * CASE (+1 armor)
 
+# CDR-2R Crusader
+* SLDF Royal
+* endo steel
+* Double heatsinks
+* CASE (+1.0 armor on L/R torso)
+* ArtemisIV (replace with Missile TTS+)
+* InitialTonnage 23 = 3.5{ENIS] + 13.5[E] + 3[C] + 3[G]
+
 # TODO
 * LCT-1Vb Locust
+* STG-3gb Stinger
+* CHP-1nb Champion
+* MON-66b Mongoose
+* HSR-200db Hussar
+* KTO-19b Kintaro
+* WHM-6Rb Warhammer
+* RFL-3N-2 Rifleman II
+* WVR-7H Wolverine II
+* OST-2Cb Ostroc
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
 [BattleTech Save Editor]: https://www.nexusmods.com/battletech/mods/408
