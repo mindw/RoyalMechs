@@ -6,8 +6,9 @@ Available in the black market and advanced Star League systems.
 Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
 them your mech bay.
 
-# KTO-20
+# KTO-20 Kintaro
 * 3039 variant
+* Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 
 # KTO-19b Kintaro
@@ -17,14 +18,14 @@ them your mech bay.
 * CASE (+1.0 armor on L/R torso)
 * InitialTonnage 18.5 = 5.5[IS] + 8[XLE] + 3[C] + 3[G] -1[FF]
 
-# KGC-000b
+# KGC-000b King Crab
 * SLDF Royal
 * Double heatsinks (2 built into the engine)
 * FF armor (-2 initial tonnage +2 armor)
 * CASE (-1 initial tonnage, +1 armor)
 * ArtemisIV (replace with Missile TTS)
 
-# TBT-3C
+# TBT-3C Trebuchet
 * SLDF Royal
 * XL engine (6,9)
 * Double heatsinks
@@ -39,14 +40,14 @@ them your mech bay.
 * endo steel
 * CASE (+1 armor on L/R torso)
 * ArtemisIV (replace with Missile TTS+)
-* InitialTonnage 25.5 = 3.5{ENIS] + 16[E] + 3[C] + 3[G]
+* InitialTonnage 25.5 = 3.5[ENIS] + 16[E] + 3[C] + 3[G]
 
 # CPLT-C1b Catapult
 * SLDF Royal
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * CASE (+1 armor on L/R torso)
-* InitialTonnage 25 = 6.5{IS] + 13.5[E] + 3[C] + 3[G] -1[FF]
+* InitialTonnage 25 = 6.5[IS] + 13.5[E] + 3[C] + 3[G] -1[FF]
 
 # STK-3Fb Stalker 
 * SLDF Royal
@@ -69,10 +70,10 @@ them your mech bay.
 * Double heatsinks (1 engine built-in)
 * CASE (+0.5 armor on L/R torso)
 * FF armor (-1 initial tonnage, +1 armor)
-* InitialTonnage 24.5 = 3{ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]
+* InitialTonnage 24.5 = 3[ENIS] + 15.5[E] + 3[C] + 3[G] + 1[HS] -1[FF]
 
 # ANH-1X Annihilator
-* SLDF
+* SLDF Royal
 * Double heatsinks
 * CASE (+1 armor)
 

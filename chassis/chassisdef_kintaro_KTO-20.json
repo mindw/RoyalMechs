@@ -19,10 +19,7 @@
     "Tonnage": 55,
     "InitialTonnage": 26,
     "weightClass": "MEDIUM",
-    "BattleValue": 5148000,
     "Heatsinks": 30,
-    "TopSpeed": 80,
-    "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
@@ -65,6 +62,10 @@
                 },
                 {
                     "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
