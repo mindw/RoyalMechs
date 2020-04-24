@@ -9,7 +9,13 @@ them your mech bay.
 # KTO-20
 * 3039 variant
 * FF armor (-1 initial tonnage, +1 armor)
+
+# KTO-19b Kintaro
+* SLDF Royal
 * Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* CASE (+1.0 armor on L/R torso)
+* InitialTonnage 18.5 = 5.5[IS] + 8[XLE] + 3[C] + 3[G] -1[FF]
 
 # KGC-000b
 * SLDF Royal
@@ -84,8 +90,6 @@ them your mech bay.
 * CHP-1nb Champion
 * MON-66b Mongoose
 * HSR-200db Hussar
-* KTO-19b Kintaro
-* WHM-6Rb Warhammer
 * RFL-3N-2 Rifleman II
 * WVR-7H Wolverine II
 * OST-2Cb Ostroc
