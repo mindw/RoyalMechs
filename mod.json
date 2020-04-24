@@ -3,10 +3,19 @@
     "Author": "Gabi Davar",
     "Enabled": true,
     
-    "Version": "0.7",
+    "Version": "0.8",
     "BattleTechVersionMin": "1.9.1",
 
-    "DependsOn": ["StreakMissileLaunchers"],
+    "DependsOn": [ 
+        "CommunityBundles", 
+        "StreakMissileLaunchers"
+    ],
+
+    "OptionallyDependsOn": [
+        "cFixes2",
+        "CABMechs"
+    ],
+    
     "ConflictsWith": [],
 
     "Manifest": [
