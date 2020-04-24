@@ -82,12 +82,24 @@ them your mech bay.
 * Double heatsinks
 * CASE (+1.0 armor on L/R torso)
 * ArtemisIV (replace with Missile TTS+)
-* InitialTonnage 23 = 3.5{ENIS] + 13.5[E] + 3[C] + 3[G]
+* InitialTonnage 23 = 3.5[ENIS] + 13.5[E] + 3[C] + 3[G]
+
+# LCT-1Vb Locust
+* SLDF Royal
+* endo steel
+* Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 8 = 1[ENIS] + 3[EXL] + 3[C] + 2[G] -1[FF]
+
+# ZEU-5S Zeus
+* SL Steiner
+* Double heatsinks (2 builtin)
+* ArtemisIV (replace with Missile TTS)
+* InitialTonnage 39.5 = 8[IS] + 22.5[E] + 3[C] + 4[G] + 2[EDHS]
 
 # TODO
-* LCT-1Vb Locust
-* STG-3gb Stinger
-* CHP-1nb Champion
+* STG-3Gb Stinger
+* CHP-1Nb Champion
 * MON-66b Mongoose
 * HSR-200db Hussar
 * RFL-3N-2 Rifleman II
