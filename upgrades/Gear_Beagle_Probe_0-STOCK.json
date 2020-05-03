@@ -1,0 +1,57 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost" : 1500000,
+        "Rarity": 5,
+        "Purchasable" : false,
+        "Manufacturer" : "Hellespont",
+        "Model" : "(Beagle Active Probe)",
+        "UIName": "Beagle Probe",
+        "Id" : "Gear_Beagle_Probe_0-STOCK",
+        "Name" : "Interrogator Beagle Active Probe",
+        "Details": "The Beagle Active Probe (BAP) is a suite of enhancement technology that, when attached to general electronic sensors, enables the equipped unit to detect and classify other battlefield units whether they are camouflaged or even shut down, with the exception of conventional infantry.",
+        "Icon" : "uixSvgIcon_equipment_Rangefinder"
+    },
+    "BonusValueA": "+ 150m/50m Sensors/Spotting Range",
+    "BonusValueB": "+ Area Sensor Lock",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "effectTargetType" : "EnemiesWithinRange",
+                "alsoTargetsCreator" : true,
+                "forceVisRebuild" : true
+            },
+            "effectType" : "ActiveAbility",
+            "Description" :
+            {
+                "Id" : "ActiveProbe_Ping",
+                "Name" : "ACTIVE PROBE PING",
+                "Details" : "Activated ability (uses Firing action). Performs a Sensor Lock against all enemies within its radius, as indicated by the spinning gold ring. Will go into cooldown state after use.",
+                "Icon" : "uixSvgIcon_action_sensorlock"
+            },
+            "activeAbilityEffectData" : 
+            {
+                "abilityName" : "AbilityDef_ActiveProbe_Ping"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_lostech"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

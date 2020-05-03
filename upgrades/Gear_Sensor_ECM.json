@@ -7,11 +7,11 @@
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Ceres Arms",
-        "Model" : "Gen 2 ECM",
-        "UIName" : "X-2 ECM Equipment",
+        "Model" : "Guardian ECM",
+        "UIName" : "Guardian ECM",
         "Id" : "Gear_Sensor_ECM",
         "Name" : "Electronic Countermeasures",
-        "Details" : "This electronic warfare component recreates the capabilities of the Star League era Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. This component cannot be mounted along with the Active Probe component.",
+        "Details" : "This electronic warfare component recreates the capabilities of the Star League era Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted.",
         "Icon" : "UixSvgIcon_specialEquip_Sensors"
     },
     "BonusValueA" : "+ ECM Field",
@@ -145,7 +145,7 @@
             {
                 "Id" : "ECMStealth_GhostEffect",
                 "Name" : "ECM CARRIER",
-                "Details" : "PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.",
+                "Details" : "PASSIVE: The ECM carrier projects an ECM field, building Stealth Charges for itself and allies if it starts or ends its turn with no active enemy units within the field.\n\nECM carriers also receive a bonus Stealth Charge.",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
             "statisticData" : 

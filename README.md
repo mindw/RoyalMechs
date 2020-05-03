@@ -1,6 +1,10 @@
 # RoyalMechs Battetech Mod
-Additional Royal variants following patterned after the variants
-introduced in 1.9.1. Should work with both ModTek and vanilla mod loader.
+Additional Royal variants patterned after the variants introduced in 1.9.1. 
+Should work with both ModTek and vanilla mod loader.
+
+Depends on the following mods:
+* CommunityBundles
+* StreakMissileLaunchers
 
 Available in the black market and advanced Star League systems.
 Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
@@ -79,7 +83,7 @@ them your mech bay.
 
 # CDR-2R Crusader
 * SLDF Royal
-* endo steel
+* Endo steel
 * Double heatsinks
 * CASE (+1.0 armor on L/R torso)
 * ArtemisIV (replace with Missile TTS+)
@@ -87,7 +91,7 @@ them your mech bay.
 
 # LCT-1Vb Locust
 * SLDF Royal
-* endo steel
+* Endo steel
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 8 = 1[ENIS] + 3[EXL] + 3[C] + 2[G] -1[FF]
@@ -98,14 +102,38 @@ them your mech bay.
 * ArtemisIV (replace with Missile TTS)
 * InitialTonnage 39.5 = 8[IS] + 22.5[E] + 3[C] + 4[G] + 2[EDHS]
 
+# CHP-1Nb Champion
+* SLDF Royal
+* Double heatsinks
+* Endo steel
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 27 = 3[ENIS] + 19[E] + 3[C] + 3[G] -1[FF]
+
+# RFL-3N-2 Rifleman II
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* Beagle probe
+* InitialTonnage 24.5 = 4[ENIS] + 11.5[EXL] + 3[C] + 4[G] + 2[EDHS]
+
+# WVR-7H Wolverine II
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* ArtemisIV (replace with Missile TTS)
+* CASE (+1.0 armor on L/R torso)
+* InitialTonnage 23.5 = 3[ENIS] + 15.5[E] + 3[C] + 3[G] -1[FF]
+
 # TODO
+* DV-6Md Dervish
 * STG-3Gb Stinger
-* CHP-1Nb Champion
 * MON-66b Mongoose
-* HSR-200db Hussar
-* RFL-3N-2 Rifleman II
-* WVR-7H Wolverine II
+* OTT-7Jb Ostscout
 * OST-2Cb Ostroc
+* OWR-2Mb Ostwar
+* HSR-200db Hussar
+* EMP-6A Emperor
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
 [BattleTech Save Editor]: https://www.nexusmods.com/battletech/mods/408
