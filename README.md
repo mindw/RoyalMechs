@@ -152,8 +152,8 @@ them your mech bay.
 
 # MON-66b Mongoose
 * SLDF Royal
-* Endo steel
 * Double heatsinks
+* Endo steel
 * Beagle probe
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 10 = 1.5[ENIS] + 4.5[EXL] + 3[C] + 2[G] - 1.0[FF]
@@ -164,11 +164,27 @@ them your mech bay.
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 32 = 6[IS] + 19[E] + 3[C] + 3[G] + 2[EDHS] - 1.0[FF]
 
+# OTT-7Jb Ostscout
+* SLDF Royal
+* Endo steel
+* Beagle probe
+* InitialTonnage 24 = 2.0[ENIS] + 16.0[E] + 3[C] + 3[G]
+
+# OWR-2Mb Ostwar
+* SLDF Royal
+* Double heatsinks
+* Endo steel
+* CASE (+0.5 armor on L/R torso)
+* InitialTonnage 25.5 = 3.5[ENIS] + 12[EXL] + 3[C] + 4[G] + 3[EDHS]
+
+# STN-3Lb Sentinel
+* SLDF Royal
+* Endo steel
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 13 = 2.0[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
+
 # TODO
-* OTT-7Jb Ostscout
-* OWR-2Mb Ostwar
 * EMP-6A Emperor
-* STN-3Lb Sentinel
 * THG-11Eb Thug
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532

@@ -1,0 +1,182 @@
+{
+    "Description": {
+        "Cost": 6100000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Ostscout",
+        "Id": "chassisdef_ostscout_OTT-7Jb",
+        "Name": "Ostscout",
+        "Details": "The Ostscout was designed as a pure recon BattleMech by Ostmann Industries. To that end, it was built entirely around gathering data and getting out of trouble, tasks for which it is exceptional. Introduced at the same time as the original model and used by the SLDF Royal units, the 7Jb uses Endo Steel to free up enough mass to add a Beagle Active Probe.",
+        "Icon": "uixTxrIcon_ostscout"
+    },
+    "MovementCapDefID": "movedef_ostscout_OTT-7Jb",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
+    "Tonnage": 35,
+    "InitialTonnage": 24,
+    "weightClass": "LIGHT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 45,
+    "MeleeInstability": 35,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 45,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 45,
+    "DFAInstability": 45,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "OTT-7Jb",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.6-0.65-0.6"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Reconnaissance",
+    "YangsThoughts": "The Ostscout is quick enough to escape most traps, and very few other designs can match it in terms of speed and maneuverability. However its ability to run and leap out of danger came at the expense of offensive capability. In fact were it not for aggressive lobbying on the part of its test pilots the final production model would have been completely weaponless."
+}

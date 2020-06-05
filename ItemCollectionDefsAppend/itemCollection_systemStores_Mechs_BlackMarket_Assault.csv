@@ -11,10 +11,13 @@ mechdef_kintaro_KTO-20,Mech,1,1
 mechdef_locust_LCT-1Vb,Mech,1,1
 mechdef_mongoose_MON-66b,Mech,1,1
 mechdef_ostroc_OSR-2Cb,Mech,1,1
+mechdef_ostscout_OTT-7Jb,Mech,1,1
+mechdef_ostwar_OWR-2Mb,Mech,1,1
 mechdef_rifleman_II_RFL-3N-2,Mech,1,1
-mechdef_stinger_STG-3Gb,Mech,1,1
+mechdef_sentinel_STN-3Lb,Mech,1,1
 mechdef_shadowhawk_SHD-2Hb,Mech,1,1
 mechdef_stalker_STK-3Fb,Mech,1,1
+mechdef_stinger_STG-3Gb,Mech,1,1
 mechdef_thunderbolt_TDR-5Sb,Mech,1,1
 mechdef_trebuchet_TBT-3C,Mech,1,1
 mechdef_wolverine_II_WVR-7H,Mech,1,1
