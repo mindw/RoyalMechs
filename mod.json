@@ -3,7 +3,7 @@
     "Author": "Gabi Davar",
     "Enabled": true,
     
-    "Version": "0.8",
+    "Version": "1.0",
     "BattleTechVersionMin": "1.9.1",
 
     "DependsOn": [ 
