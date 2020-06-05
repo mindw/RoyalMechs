@@ -64,7 +64,7 @@
         "Model": null,
         "UIName": "Trebuchet TBT-3C",
         "Id": "mechdef_trebuchet_TBT-3C",
-        "Name": "Trebuchet",
+        "Name": "Royal Trebuchet",
         "Details": "The original Trebuchet as produced for the Star League, the -3C is similar to a normal Trebuchet-5N except with more lasers and better heat dissipation as well as making use of the Artemis IV system.",
         "Icon": "uixTxrIcon_trebuchet"
     },

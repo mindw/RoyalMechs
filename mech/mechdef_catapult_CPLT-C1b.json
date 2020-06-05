@@ -71,7 +71,7 @@
         "Model": null,
         "UIName": "Catapult CPLT-C1b",
         "Id": "mechdef_catapult_CPLT-C1b",
-        "Name": "Catapult",
+        "Name": "Royal Catapult",
         "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
         "Icon": "uixTxrIcon_catapult"
     },

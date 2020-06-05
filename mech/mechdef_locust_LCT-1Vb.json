@@ -21,7 +21,7 @@
         "Model": null,
         "UIName": "Locust LCT-1Vb",
         "Id": "mechdef_locust_LCT-1Vb",
-        "Name": "Locust",
+        "Name": "Royal Locust",
         "Details": "The Royal Locust introduced in 2610 mounts a Small Pulse Laser and a Medium Pulse Laser in each arm, while keeping the torso-mounted medium laser. The additional heat is managed by SLDF double heat sinks.",
         "Icon": "uixTxrIcon_locust"
     },
