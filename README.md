@@ -183,8 +183,13 @@ them your mech bay.
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 13 = 2.0[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
 
+# EMP-6A Emperor
+* SLDF Royal
+* Double heatsinks
+* CASE (+1.0 armor on L/R torso)
+* InitialTonnage 22.5 = 9[IS] + 7.5[EXL] + 3[C] + 3[G]
+
 # TODO
-* EMP-6A Emperor
 * THG-11Eb Thug
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
