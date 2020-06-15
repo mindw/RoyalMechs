@@ -189,6 +189,15 @@ them your mech bay.
 * CASE (+1.0 armor on L/R torso)
 * InitialTonnage 22.5 = 9[IS] + 7.5[EXL] + 3[C] + 3[G]
 
+# PXH-1b Phoenix Hawk
+* Revised from stock
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* Guardian ECM
+* CASE (+0.5 armor on L/R torso)
+* InitialTonnage 16 = 2.5[ENIS] + 7.5[EXL] + 3[C] + 3[G]
+
 # TODO
 * THG-11Eb Thug
 
