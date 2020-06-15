@@ -1,23 +1,65 @@
 {
+    "MinAppearanceDate" : "2752-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "BLACKLISTED",
             "unit_release",
-            "unit_jumpOK",
+            "unit_ready",
             "unit_mech",
             "unit_medium",
-            "unit_ready",
+            "unit_jumpOK", 
+            "unit_range_medium",
+            "unit_armor_high",
             "unit_lance_tank",
             "unit_lance_assassin",
             "unit_lance_vanguard",
             "unit_role_brawler",
-            "BLACKLISTED"
+            "unit_very_rare",
+            "unit_SLDFRoyal",
+            "unit_LosTech",
+            "unit_very_rare_Davion",
+            "unit_very_rare_Liao",
+            "unit_very_rare_Marik",
+            "unit_very_rare_Steiner",
+            "unit_very_rare_Kurita",
+            "unit_very_rare_MagistracyOfCanopus",
+            "unit_very_rare_TaurianConcordat",
+            "unit_very_rare_AuriganDirectorate",
+            "unit_very_rare_AuriganRestoration",
+            "unit_very_rare_ComStar",
+            "unit_very_rare_MercenaryReviewBoard",
+            "unit_very_rare_DuchyOfAndurien",
+            "unit_very_rare_AuriganMercenaries",
+            "unit_very_rare_AuriganPirates",
+            "unit_very_rare_Locals",
+            "unit_very_rare_Betrayers",
+            "unit_very_rare_MajestyMetals",
+            "unit_very_rare_KellHounds",
+            "unit_very_rare_GrayDeathLegion",
+            "unit_very_rare_FlakJackals",
+            "unit_very_rare_LocalsBrockwayRefugees",
+            "unit_none_SelfEmployed",
+            "unit_none_MasonsMarauders",
+            "unit_none_SteelBeast",
+            "unit_none_RazorbackMercs",
+            "unit_none_RedHareRegiment",
+            "unit_none_EmeraldDawn",
+            "unit_very_rare_SianTriumphant",
+            "unit_very_rare_BlackCalderaDefense",
+            "unit_very_rare_BlackCalderaDefense_Hidden",
+            "unit_none_SecuritySolutionsInc",
+            "unit_none_PaladinProtectionLLC",
+            "unit_very_rare_HouseNakano",
+            "unit_very_rare_HouseKhulan",
+            "unit_none_HostileMercenaries",
+            "unit_none_NoFaction"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_shadowhawk_SHD-2Hb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10020000,
+        "Cost": 10620000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -28,7 +70,7 @@
         "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two Streak SRM2s and two Medium Lasers, cooled by double-strength heatsinks.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
-    "simGameMechPartCost": 1002000,
+    "simGameMechPartCost": 1062000,
     "Version": 1,
     "Locations": [
         {
@@ -226,6 +268,5 @@
             "prefabName": null,
             "hasPrefabName": false
         }
-    ],
-    "MinAppearanceDate" : "2752-01-01T00:00:00Z"
+    ]
 }

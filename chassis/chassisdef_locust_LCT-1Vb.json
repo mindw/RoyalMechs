@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 2720000,
+        "Cost": 5400000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Locust",
         "Id": "chassisdef_locust_LCT-1Vb",
         "Name": "Locust",
-        "Details": "The Royal Locust introduced in 2610 mounts a Small Pulse Laser and a Medium Pulse Laser in each arm, while keeping the torso-mounted medium laser. The additional heat is managed by SLDF double heat sinks.",
+        "Details": "The Royal Locust introduced in 2610 mounts a Small Pulse Laser and a Medium Pulse Laser in each arm, while keeping the torso-mounted medium laser. It also uses a XL Engine, Endo Steel chassis, and Ferro-Fibrous armor. The heat-sinks have also been upgraded to Double Heat Sinks.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 8,
+    "InitialTonnage": 8.0,
     "weightClass": "LIGHT",
     "Heatsinks": 30,
     "MaxJumpjets": 8,
@@ -61,7 +61,7 @@
                     "Omni": false
                 },
 				{
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -119,7 +119,7 @@
                     "Omni": false
                 },
 				{
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -202,5 +202,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Striker & Scout",
-    "YangsThoughts": "The Royal Locust introduced in 2610 mounts a Small Pulse Laser and a Medium Pulse Laser in each arm, while keeping the torso-mounted medium laser. The additional heat is managed by SLDF double heat sinks."
+    "YangsThoughts": "The Locust upgraded for the Star League Royal Divisions is crammed literally full with energy weapons, and double heat sinks into a high-tech chassis with no space leftover."
 }

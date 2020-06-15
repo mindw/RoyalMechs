@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 6200000,
+        "Cost": 11010000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -19,7 +19,6 @@
     "Tonnage": 65,
     "InitialTonnage": 22.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6057000,
     "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 160,

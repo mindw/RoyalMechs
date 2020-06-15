@@ -1,8 +1,8 @@
 {
     "MechTags": {
         "items": [
-            "unit_mech",
             "BLACKLISTED",
+            "unit_mech",
             "unit_heavy",
             "unit_jumpOK",
             "unit_indirectfire",
@@ -64,7 +64,7 @@
     "ChassisID": "chassisdef_catapult_CPLT-C1b",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12140000,
+        "Cost": 13960000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -75,7 +75,7 @@
         "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
         "Icon": "uixTxrIcon_catapult"
     },
-    "simGameMechPartCost": 1214000,
+    "simGameMechPartCost": 1396000,
     "Version": 1,
     "Locations": [
         {

@@ -3,7 +3,6 @@
     "MechTags": {
         "items": [
             "BLACKLISTED",
-            "KSBeta",
             "unit_mech",
             "unit_heavy",
             "unit_range_long",
@@ -21,6 +20,8 @@
             "NotKurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
+            "unit_SLDFRoyal",
+            "unit_LosTech",
             "unit_none",
             "unit_none_Davion",
             "unit_none_Liao",

@@ -60,7 +60,7 @@
     "ChassisID": "chassisdef_sentinel_STN-3Lb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3700000,
+        "Cost": 5280000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -71,7 +71,7 @@
         "Details": "The Royal version of the Sentinel featured a significantly upgraded weapon load-out, mounting a Gauss Rifle in place of the autocannon and a Medium Laser in place of the Streak rack, retaining the small laser. To handle the weight of the Gauss Rifle, it was almost entirely rebuilt using a XL engine and Endo-Steel structure, with the one and a half tons of Ferro-Fibrous plate enhancing its protection.",
         "Icon": "uixTxrIcon_sentinel"
     },
-    "simGameMechPartCost": 370000,
+    "simGameMechPartCost": 528000,
     "Version": 1,
     "Locations": [
         {

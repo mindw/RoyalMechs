@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 10540000,
+        "Cost": 13500000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Trebuchet",
         "Id": "chassisdef_trebuchet_TBT-3C",
         "Name": "Trebuchet",
-        "Details": "The original Trebuchet as produced for the Star League, the -3C is similar to a normal Trebuchet-5N except with more lasers and better heat dissipation as well as making use of the Artemis IV system.",
+        "Details": "The original Trebuchet as produced for the SLDF, it consisted of two Artemis IV-equipped LRM-15s with CASE, four medium lasers, double heat sinks, an Endo-Steel chassis and a 300-rate Extra Light Fusion Engine.",
         "Icon": "uixTxrIcon_trebuchet"
     },
     "MovementCapDefID": "movedef_trebuchet_TBT-3C",
@@ -19,7 +19,6 @@
     "Tonnage": 50,
     "InitialTonnage": 18,
     "weightClass": "MEDIUM",
-    "BattleValue": 4665000,
     "Heatsinks": 30,
     "MaxJumpjets": 6,
     "Stability": 130,
@@ -200,5 +199,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
-    "YangsThoughts": "The original Trebuchet as produced for the Star League, the -3C is similar to a normal Trebuchet-5N except with more lasers and better heat dissipation as well as making use of the Artemis IV system."
+    "YangsThoughts": "The original Trebuchet produced for the SLDF was more fleet of foot than the modern version. However, the attrition of the First Succession War forced Corean Enterprises into redesigning the 'Mech without advanced technology to keep the production lines running."
 }

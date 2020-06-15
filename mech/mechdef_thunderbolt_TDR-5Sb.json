@@ -17,7 +17,7 @@
     "ChassisID": "chassisdef_thunderbolt_TDR-5Sb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 11920000,
+        "Cost": 16740000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -28,7 +28,7 @@
         "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. The large laser is replaced by an ER PPC, and a pair of Small Pulse Lasers replaces the machine guns. Double heat sinks keep the MechWarrior comfortable.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
-    "simGameMechPartCost": 1192000,
+    "simGameMechPartCost": 1674000,
     "Version": 1,
     "Locations": [
         {

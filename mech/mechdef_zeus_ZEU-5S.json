@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate" : "2788-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
@@ -15,7 +16,7 @@
     "ChassisID": "chassisdef_zeus_ZEU-5S",
     "HeraldryID": null,
     "Description": {
-        "Cost": 20840000,
+        "Cost": 15920000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -26,7 +27,7 @@
         "Details": "One of the two original models of the Zeus, the Zeus-5S was equipped with an Ultra AC-5 with two tons of ammunition. The LRM-15 was retained while the large laser was upgraded to an extended range model. Generous use of double heat sinks kept the entire machine cool.",
         "Icon": "uixTxrIcon_zeus"
     },
-    "simGameMechPartCost": 2084000,
+    "simGameMechPartCost": 15920000,
     "Version": 1,
     "Locations": [
         {

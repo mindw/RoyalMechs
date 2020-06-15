@@ -57,7 +57,7 @@
     "ChassisID": "chassisdef_trebuchet_TBT-3C",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12400000,
+        "Cost": 15360000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -68,7 +68,7 @@
         "Details": "The original Trebuchet as produced for the Star League, the -3C is similar to a normal Trebuchet-5N except with more lasers and better heat dissipation as well as making use of the Artemis IV system.",
         "Icon": "uixTxrIcon_trebuchet"
     },
-    "simGameMechPartCost": 1240000,
+    "simGameMechPartCost": 1536000,
     "Version": 1,
     "Locations": [
         {
