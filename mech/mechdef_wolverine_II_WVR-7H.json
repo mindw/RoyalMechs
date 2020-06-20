@@ -2,7 +2,7 @@
     "MinAppearanceDate" : "2770-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-			"BLACKLISTED",
+            "BLACKLISTED",
             "unit_mech",
             "unit_medium",
             "unit_jumpOK", 
@@ -12,7 +12,6 @@
             "unit_role_brawler",
             "unit_release",
             "unit_very_rare",
-            "unit_era_2750",
             "unit_SLDFRoyal",
             "unit_LosTech",
             "unit_very_rare_Davion",
@@ -221,7 +220,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "SimGameUID": null,

@@ -2,7 +2,7 @@
     "MinAppearanceDate" : "2610-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-			"BLACKLISTED",
+            "BLACKLISTED",
             "unit_mech",
             "unit_release",
             "unit_light", 
@@ -156,7 +156,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
@@ -188,8 +188,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
-		{
+        },        
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
