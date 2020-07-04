@@ -12,6 +12,7 @@
     ],
 
     "OptionallyDependsOn": [
+        "cFixes",
         "cFixes2",
         "CABMechs"
     ],

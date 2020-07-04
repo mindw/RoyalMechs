@@ -20,7 +20,7 @@ them your mech bay.
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * CASE (+1.0 armor on L/R torso)
-* InitialTonnage 18.5 = 5.5[IS] + 8[XLE] + 3[C] + 3[G] -1[FF]
+* InitialTonnage 18.5 = 5.5[IS] + 8[EXL] + 3[C] + 3[G] -1[FF]
 
 # KGC-000b King Crab
 * SLDF Royal
@@ -198,8 +198,22 @@ them your mech bay.
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 16 = 2.5[ENIS] + 7.5[EXL] + 3[C] + 3[G]
 
+# THG-11Eb Thug
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* CASE (+1.0 armor on L/R torso)
+* InitialTonnage 35.5 = 4[ENIS] + 22.5[E] + 3[C] + 4[G] + 2[EDHS]
+
+# OSP-15 Osprey
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* CASE (+1.0 armor on L/R torso)
+* InitialTonnage 14.0 = 3.0[ENIS] + 5[EXL] + 3[C] + 3[G]
+
 # TODO
-* THG-11Eb Thug
+None!
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
 [BattleTech Save Editor]: https://www.nexusmods.com/battletech/mods/408
