@@ -230,8 +230,17 @@ them your mech bay.
 * Double heatsinks
 * InitialTonnage 25 = 9.5[IS] + 8.5[EXL] + 3[C] + 3[G] + 1[EDHS]
 
+# BLR-1Gb BattleMaster
+* Revised from stock
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* InitialTonnage 41.5 = 4.5[ENIS] + 27[E] + 3[C] + 4[G] + 3[EDHS]
+
 # TODO
-None!
+* EXT-4Db Exterminator
+* AS7-D-H Atlas II
+* KGC-010 King Crab
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
 [BattleTech Save Editor]: https://www.nexusmods.com/battletech/mods/408
