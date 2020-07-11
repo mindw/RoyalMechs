@@ -17,6 +17,7 @@ them your mech bay.
 
 # KTO-19b Kintaro
 * SLDF Royal
+* XL Engine
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * CASE (+1.0 armor on L/R torso)
@@ -31,9 +32,9 @@ them your mech bay.
 
 # TBT-3C Trebuchet
 * SLDF Royal
-* XL engine (6,9)
+* XL Engine (6,9)
 * Double heatsinks
-* endo steel
+* Endo steel
 * -0.5 armor (dropped by original design)
 * CASE (-1 initial tonnage, +1 armor)
 * ArtemisIV (replace with Missile TTS+)
@@ -62,7 +63,7 @@ them your mech bay.
 
 # TDR-5Sb Thunderbolt
 * SLDF Royal
-* endo steel
+* Endo steel
 * Double heatsinks
 * ArtemisIV (replace with Missile TTS)
 * CASE (+0.5 armor on L/R torso)
@@ -70,7 +71,7 @@ them your mech bay.
 
 # SHD-2Hb Shadow Hawk
 * SLDF Royal
-* endo steel
+* Endo steel
 * Double heatsinks (1 engine built-in)
 * CASE (+0.5 armor on L/R torso)
 * FF armor (-1 initial tonnage, +1 armor)
@@ -92,6 +93,7 @@ them your mech bay.
 # LCT-1Vb Locust
 * SLDF Royal
 * Endo steel
+* XL Engine
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 8 = 1[ENIS] + 3[EXL] + 3[C] + 2[G] -1[FF]
@@ -112,6 +114,7 @@ them your mech bay.
 # RFL-3N-2 Rifleman II
 * SLDF Royal
 * Endo steel
+* XL Engine
 * Double heatsinks
 * Beagle probe
 * InitialTonnage 24.5 = 4[ENIS] + 11.5[EXL] + 3[C] + 4[G] + 2[EDHS]
@@ -127,6 +130,7 @@ them your mech bay.
 
 # DV-6Md Dervish
 * SL Davion
+* XL Engine
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 21.5 = 5.5[IS] + 8.0[EXL] + 3[C] + 3[G] + 1[EHS]
 
@@ -140,20 +144,23 @@ them your mech bay.
 
 # STG-3Gb Stinger
 * SLDF Royal
+* XL Engine
 * Endo steel
 * Double heatsinks
 * InitialTonnage 8.5 = 1.0[ENIS] + 2.5[EXL] + 3[C] + 2[G]
 
 # HSR-200db Hussar
 * SLDF Royal
+* XL Engine
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 16.5 = 3.0[IS] + 7.5[EXL] + 3[C] + 3[G] - 1.0[FF]
 
 # MON-66b Mongoose
 * SLDF Royal
-* Double heatsinks
 * Endo steel
+* XL Engine
+* Double heatsinks
 * Beagle probe
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 10 = 1.5[ENIS] + 4.5[EXL] + 3[C] + 2[G] - 1.0[FF]
@@ -172,19 +179,22 @@ them your mech bay.
 
 # OWR-2Mb Ostwar
 * SLDF Royal
-* Double heatsinks
 * Endo steel
+* XL Engine
+* Double heatsinks
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25.5 = 3.5[ENIS] + 12[EXL] + 3[C] + 4[G] + 3[EDHS]
 
 # STN-3Lb Sentinel
 * SLDF Royal
 * Endo steel
+* XL Engine
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 13 = 2.0[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
 
 # EMP-6A Emperor
 * SLDF Royal
+* XL Engine
 * Double heatsinks
 * CASE (+1.0 armor on L/R torso)
 * InitialTonnage 22.5 = 9[IS] + 7.5[EXL] + 3[C] + 3[G]
@@ -193,6 +203,7 @@ them your mech bay.
 * Revised from stock
 * SLDF Royal
 * Endo steel
+* XL Engine
 * Double heatsinks
 * Guardian ECM
 * CASE (+0.5 armor on L/R torso)
@@ -208,9 +219,16 @@ them your mech bay.
 # OSP-15 Osprey
 * SLDF Royal
 * Endo steel
+* XL Engine
 * Double heatsinks
 * CASE (+1.0 armor on L/R torso)
 * InitialTonnage 14.0 = 3.0[ENIS] + 5[EXL] + 3[C] + 3[G]
+
+# NSR-9J Nightstar
+* SLDF Royal
+* XL Engine
+* Double heatsinks
+* InitialTonnage 25 = 9.5[IS] + 8.5[EXL] + 3[C] + 3[G] + 1[EDHS]
 
 # TODO
 None!
