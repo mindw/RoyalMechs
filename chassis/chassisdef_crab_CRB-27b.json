@@ -1,23 +1,23 @@
 {
     "Description": {
-        "Cost": 5200000,
-        "Rarity": 3,
+        "Cost": 8100000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Kintaro",
-        "Id": "chassisdef_kintaro_KTO-20",
-        "Name": "Kintaro",
-		"Details": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks.",
-        "Icon": "uixTxrIcon_kintaro"
+        "UIName": "Crab",
+        "Id": "chassisdef_crab_CRB-27b",
+        "Name": "Crab",
+        "Details": "The Crab 27b is a very old model that dates back to the days of the Star League. Its energy weapons are all rare, upgraded versions of the tech found on the CRB-20, allowing it to hit harder while still requiring no ammunition. Improved heat sinking also keeps it comparatively cool.",
+        "Icon": "uixTxrIcon_crab"
     },
-    "MovementCapDefID": "movedef_kintaro_KTO-18",
+    "MovementCapDefID": "movedef_crab_CRB-27b",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_kintaro",
-    "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
-    "PrefabBase": "kintaro",
-    "Tonnage": 55,
-    "InitialTonnage": 26,
+    "HardpointDataDefID": "hardpointdatadef_crab",
+    "PrefabIdentifier": "chrPrfMech_crabBase-001",
+    "PrefabBase": "crab",
+    "Tonnage": 50,
+    "InitialTonnage": 22.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -36,17 +36,22 @@
     "Signature": 0,
     "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 70,
-    "MeleeInstability": 55,
+    "MeleeDamage": 50,
+    "MeleeInstability": 50,
     "MeleeToHitModifier": 0,
-    "DFADamage": 70,
+    "DFADamage": 65,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 70,
-    "DFAInstability": 70,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+			],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -57,32 +62,37 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-            ],
+			],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 40
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
         },
         {
             "Location": "CenterTorso",
@@ -90,31 +100,35 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 180,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
         },
         {
             "Location": "RightArm",
@@ -130,78 +144,78 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 40
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 60
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 60
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 3,
-            "y": 15,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 15,
+            "x": -4,
+            "y": 13,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 3,
-            "y": 15,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 15,
+            "x": -4,
+            "y": 13,
             "z": 0
         },
         {
             "x": 3,
             "y": 5,
-            "z": 0
+            "z": 2
         },
         {
             "x": -3,
             "y": 5,
-            "z": 0
+            "z": 2
         }
     ],
-    "VariantName": "KTO-20",
+    "VariantName": "CRB-27b",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Juggernaut & Close Assault",
-	"YangsThoughts": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks."
+    "StockRole": "Direct-Fire Support",
+    "YangsThoughts": "The Crab 27b is a very old model that dates back to the days of the Star League. Its energy weapons are all rare, upgraded versions of the tech found on the CRB-20, allowing it to hit harder while still requiring no ammunition. Improved heat sinking also keeps it comparatively cool."
 }

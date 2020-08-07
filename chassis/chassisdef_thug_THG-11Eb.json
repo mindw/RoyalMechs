@@ -14,7 +14,7 @@
     "MovementCapDefID": "movedef_thug_THG-11Eb",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_thug",
-    "PrefabIdentifier": "chrprfmech_thugbase-001",
+    "PrefabIdentifier": "chrPrfMech_thugBase-001",
     "PrefabBase": "thug",
     "Tonnage": 80,
     "InitialTonnage": 35.5,
@@ -200,7 +200,6 @@
     "VariantName": "THG-11Eb",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.55-1.42-1.55"
 		],
         "tagSetSourceFile": ""
     },

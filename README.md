@@ -10,11 +10,6 @@ Available in the black market and advanced Star League systems.
 Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
 them your mech bay.
 
-# KTO-20 Kintaro
-* 3039 variant
-* Double heatsinks
-* FF armor (-1 initial tonnage, +1 armor)
-
 # KTO-19b Kintaro
 * SLDF Royal
 * XL Engine
@@ -231,11 +226,18 @@ them your mech bay.
 * InitialTonnage 25 = 9.5[IS] + 8.5[EXL] + 3[C] + 3[G] + 1[EDHS]
 
 # BLR-1Gb BattleMaster
-* Revised from stock
+* Revised from stock - move DHS into engine
 * SLDF Royal
 * Endo steel
 * Double heatsinks
 * InitialTonnage 41.5 = 4.5[ENIS] + 27[E] + 3[C] + 4[G] + 3[EDHS]
+
+# CRB-27b Crab 
+* Revised from stock - weapon load out, mirror cFixes tonnage
+* SLDF Royal
+* Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 16 = 5[IS] + 12.5[E] + 3[C] + 3[G] - 1.0[FF]
 
 # TODO
 * EXT-4Db Exterminator
