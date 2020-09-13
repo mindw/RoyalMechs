@@ -1,6 +1,6 @@
 {
     "Description": {
-		"Cost": 10800000,
+        "Cost": 10800000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Annihilator",
         "Id": "chassisdef_annihilator_ANH-1X",
         "Name": "Annihilator",
-		"Details": "The Annihilator-1X is a rare variant of the mech from the end of the Amaris Civil War. It looks a lot like the later -2A, carrying quad LB-10X Autocannons and a bevy of Medium, Small, and Small Pulse Lasers for backup. Unlike the later -2A though, the -1X is equipped with double heat sinks to let the autocannons sing far longer without heat issues.",
+        "Details": "The Annihilator-1X is a rare variant of the mech from the end of the Amaris Civil War. It looks a lot like the later -2A, carrying quad LB-10X Autocannons and a bevy of Medium, Small, and Small Pulse Lasers for backup. Unlike the later -2A though, the -1X is equipped with double heat sinks to let the autocannons sing far longer without heat issues.",
         "Icon": "uixTxrIcon_annihilator"
     },
     "MovementCapDefID": "movedef_annihilator_ANH-1A",
@@ -62,15 +62,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-					"WeaponMount": "Ballistic",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-					"WeaponMount": "Energy",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-					"WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -109,7 +109,6 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-                
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -125,7 +124,7 @@
                     "Omni": false
                 },
                 {
-					"WeaponMount": "Ballistic",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -139,15 +138,15 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-					"WeaponMount": "Ballistic",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-					"WeaponMount": "Energy",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-					"WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -226,19 +225,19 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-	"YangsThoughts": "The Annihilator-1X is a rare variant of the mech from the end of the Amaris Civil War. It looks a lot like the later -2A, carrying quad LB-10X Autocannons and a bevy of Medium, Small, and Small Pulse Lasers for backup. Unlike the later -2A though, the -1X is equipped with double heat sinks to let the autocannons sing far longer without heat issues.",
-    "FixedEquipment" : [
+    "YangsThoughts": "The Annihilator-1X is a rare variant of the mech from the end of the Amaris Civil War. It looks a lot like the later -2A, carrying quad LB-10X Autocannons and a bevy of Medium, Small, and Small Pulse Lasers for backup. Unlike the later -2A though, the -1X is equipped with double heat sinks to let the autocannons sing far longer without heat issues.",
+    "FixedEquipment": [
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Gear_General_GM_Ballistic_Siege_Compensators",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ]
 }

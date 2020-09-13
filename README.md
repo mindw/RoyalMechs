@@ -160,7 +160,7 @@ them your mech bay.
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 10 = 1.5[ENIS] + 4.5[EXL] + 3[C] + 2[G] - 1.0[FF]
 
-# OST-2Cb Ostroc
+# OSR-2Cb Ostroc
 * SLDF Royal
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
@@ -238,6 +238,13 @@ them your mech bay.
 * Double heatsinks
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 16 = 5[IS] + 12.5[E] + 3[C] + 3[G] - 1.0[FF]
+
+# LNC25-01sl Lancelot (60t)
+* SLDF
+* XL engine 360 (4 internal) 6/9
+* double heatsinks (14/16)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 4[DHS] -1[FF] = 32.5
 
 # TODO
 * EXT-4Db Exterminator

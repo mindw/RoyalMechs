@@ -1,18 +1,33 @@
 {
-    "MinAppearanceDate": "2612-01-01T00:00:00Z"
+    "MinAppearanceDate": "2612-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "BLACKLISTED",
-            "unit_release",
             "unit_mech",
             "unit_assault",
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_range_medium",
             "unit_jumpOK",
-            "unit_speed_low",
-            "unit_armor_high"
-        ],
+            "unit_armor_high",
+            "unit_release",
+            "unit_ready",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
+            ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_emperor_EMP-6A",

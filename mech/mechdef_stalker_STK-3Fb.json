@@ -1,14 +1,30 @@
 {
+    "MinAppearanceDate": "2705-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_assault",
             "unit_lance_assassin",
             "unit_role_brawler",
-            "unit_release",
             "unit_range_medium",
             "unit_indirectFire",
-            "unit_speed_low",
+            "unit_release",
+            "unit_ready",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
             "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
@@ -323,7 +339,6 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }        
-    ],
-    "MinAppearanceDate" : "2705-01-01T00:00:00Z"
+        }
+    ]
 }

@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 11010000,
-        "Rarity": 3,
+        "Cost": 15300000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Thunderbolt",
-        "Id": "chassisdef_thunderbolt_TDR-5Sb",
-        "Name": "Thunderbolt",
-        "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. The large laser is replaced by an ER PPC, and a pair of Small Pulse Lasers replaces the machine guns. Double heat sinks keep the MechWarrior comfortable.",
-        "Icon": "uixTxrIcon_thunderbolt"
+        "UIName": "Lancelot",
+        "Id": "chassisdef_lancelot_LNC25-01sl",
+        "Name": "Lancelot",
+        "Details": "A late refinement to an already formidable design the SLDF Lancelot replaces the Large lasers and PPC with a trio of Extende range large lasers. Ferro-Fibrous armor provides enough tonnage to mount additional heat sinks.",
+        "Icon": "uixTxrIcon_lancelot"
     },
-    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+    "MovementCapDefID": "movedef_lancelot_LNC25-01",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_thunderbolt",
-    "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
-    "PrefabBase": "thunderbolt",
-    "Tonnage": 65,
-    "InitialTonnage": 22.5,
+    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+    "PrefabBase": "lancelot",
+    "Tonnage": 60,
+    "InitialTonnage": 32.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 30,
-    "MaxJumpjets": 4,
+    "Heatsinks": 54,
+    "MaxJumpjets": 6,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -36,18 +36,17 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 90,
-    "MeleeInstability": 65,
+    "MeleeDamage": 40,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -58,15 +57,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -82,58 +77,54 @@
         },
         {
             "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -148,33 +139,33 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
+            "x": 3,
             "y": 13,
             "z": 0
         },
         {
-            "x": -4,
+            "x": -3,
             "y": 13,
             "z": 0
         }
@@ -182,35 +173,37 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 13,
-            "z": 0
-        },
-        {
             "x": 3,
-            "y": 5,
+            "y": 13,
             "z": 0
         },
         {
             "x": -3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2,
             "y": 5,
             "z": 0
         }
     ],
-    "VariantName": "TDR-5Sb",
+    "VariantName": "LNC25-01sl",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"mr-resize-1.05-1.05-1.05"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Skirmisher & Brawler",
-    "YangsThoughts": "SLDF Royal indeed, visually almost identical to the stock 5S, It runs cooler and has a longer reach. Capable of alpha striking repeatedly it can engage both short and long range opponents effectivity."
+    "StockRole": "Sniper",
+    "YangsThoughts": "A rare Star League Defense Forces variant of the Lancelot, the LNC25-01sl replaces the PPC and Large Lasers of the -01 with a trio of ER Large Lasers. It also adds ferro-fibrous armor for extra protection and uses the tonnage saved over the -01 for extra heat sinks. This model was extremely rare and only to be found in the Star League's Royal regiments, which either left with Kerensky or stayed behind to form ComStar's protective forces in the wake of the Amaris Civil War."
 }
