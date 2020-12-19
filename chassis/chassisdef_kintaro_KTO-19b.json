@@ -91,7 +91,7 @@
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -186,7 +186,7 @@
             "z": 0
         },
         {
-            "x": -3,                                                                    
+            "x": -3,
             "y": 15,
             "z": 0
         },
@@ -206,6 +206,6 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher & Cavalry",
+    "StockRole": "Skirmisher",
     "YangsThoughts": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. The upgrade of the KTO-19's LRM-5 launcher to a larger LRM-15 gives more flexibility in combat in comparison to the popular KTO-18. It also runs  a lot cooler thanks to double strength heatsinks."
 }

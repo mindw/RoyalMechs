@@ -87,11 +87,11 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-				{
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 200,
@@ -198,10 +198,9 @@
     ],
     "VariantName": "OSR-2Cb",
     "ChassisTags": {
-        "items": [
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper & Fire Support",
-    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies.  But it isn't a bad harasser or anchor for a medium class scout lance."
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies. But it isn't a bad harasser or anchor for a medium class scout lance."
 }

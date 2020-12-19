@@ -60,7 +60,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -119,7 +119,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Ballistic",
                     "Omni": false
                 },
@@ -200,24 +200,24 @@
     "VariantName": "RFL-3N-2",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.25-1.1-1.2"
-		],
+            "mr-resize-1.25-1.1-1.2"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper",
+    "StockRole": "Brawler",
     "YangsThoughts": "Turning a heavy fire support 'mech into an assault by adding all the lostech goodies you can come up with? Yes please!",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "Head",
-            "ComponentDefID" : "Gear_General_Rangefinder_Suite",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_General_Rangefinder_Suite",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ]
 }

@@ -7,7 +7,10 @@
     "BattleTechVersionMin": "1.9.1",
 
     "DependsOn": [ 
-        "CommunityBundles", 
+        "CAB-Clan Mech", 
+        "CAB-IS Mech", 
+        "CAB-Misc", 
+        "CAB-Tanks", 
         "StreakMissileLaunchers"
     ],
 
@@ -21,10 +24,10 @@
 
     "Manifest": [
         { "Type": "Sprite", "Path": "portraits" },
-        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints", "ShouldMergeJSON": false },
         { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-        { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-        { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" },

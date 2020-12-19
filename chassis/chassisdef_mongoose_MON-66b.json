@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 35,
+    "MeleeDamage": 40,
     "MeleeInstability": 25,
     "MeleeToHitModifier": 0,
     "DFADamage": 30,
@@ -51,7 +51,7 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -196,10 +196,10 @@
     "VariantName": "MON-66b",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.05-1.05-1.05"
-		],
+            "mr-resize-1.05"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Light Sniper & Scout",
+    "StockRole": "Striker",
     "YangsThoughts": "Must be something about those chicken legs boss, the Mongoose is one of the faster 'Mechs out there.  Combined with its firepower and durability, I think any of our Scouts would prefer this over a Locust."
 }

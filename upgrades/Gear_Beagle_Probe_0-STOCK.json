@@ -5,7 +5,7 @@
     "Description": {
         "Cost" : 1500000,
         "Rarity": 5,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "Hellespont",
         "Model" : "(Beagle Active Probe)",
         "UIName": "Beagle Probe",

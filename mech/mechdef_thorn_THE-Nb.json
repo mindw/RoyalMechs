@@ -1,0 +1,146 @@
+{
+    "MinAppearanceDate": "2743-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "BLACKLISTED",
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_armor_high",
+            "unit_sldf_royal",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotBlackWidowCompany"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_thorn_THE-Nb",
+    "Description": {
+        "Cost": 3700000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Thorn THE-Nb",
+        "Id": "mechdef_thorn_THE-Nb",
+        "Name": "Thorn THE-Nb",
+        "Details": "The advanced model employed by the SLDF Royal Divisions in 2743 changed the role of the 'Mech from a missile to an energy boat, replacing the LRM launcher with an ER Large Laser and downgrading one medium laser to a Small one. Dropping the no longer required CASE, the 'Mech also used a MASC system for temporary speed bursts and Double Heat Sinks to vent its increased waste heat output.",
+        "Icon": "uixTxrIcon_thorn"
+    },
+    "simGameMechPartCost": 370000,
+    "Version": 1,
+    "Locations": [
+        {
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftTorso",
+            "CurrentArmor": 35,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 35,
+            "AssignedRearArmor": 20,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "CenterTorso",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 20,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightTorso",
+            "CurrentArmor": 35,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 35,
+            "AssignedRearArmor": 20,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "LeftLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "RightLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
