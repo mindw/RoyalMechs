@@ -10,6 +10,15 @@ Available in the black market and advanced Star League systems.
 Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
 them your mech bay.
 
+## How mechs were converted?
+* XL engine - reduce initial tonnate, no slots penalty.
+* Endo Steel - reduce initial tonnage. no slots penalty.
+* FF armor - reduce initial tonnage to compensate for extra armor tons to 
+  maintain armor level. no slots penalty.
+* CASE - increase armor tonnage in torso. no slots taken.
+* Artemis IV replace with missile targeting upgrades.
+* Streak SRM 2 enabled via StreakMissileLaunchers.
+
 # KTO-19b Kintaro
 * SLDF Royal
 * XL Engine
@@ -314,17 +323,21 @@ them your mech bay.
 * MASC
 * 1[ESIS] + 2[XLE] + 5[C/G] = 8.0
 
+# IMP-1A/B/C (100t)
+* Early Clan
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/18)-1A (12/19)-1B (12/17)-1C
+* CASE (L Torso) (1A & 1B)
+* ArtemisIV (replace with Missile TTS+)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 37.5, 37(1C)
+
 # TODO
 * -EXT-4Db Exterminator
 * -AS7-D-H Atlas II
 * -WVE-5Nb Wyvern
-* FLC-4Nb Falcon
 * FFL-3A Firefly
 * -HER-1Sb Hermes
 * -CRK-5003-1b Crockett
-* IMP-1A IMP
-* IMP-1B IMP
-* IMP-1C IMP
 * EXC-B2b Excalibur
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
